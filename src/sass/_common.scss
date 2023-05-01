@@ -1,1 +1,94 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+// @import './vars';
+
+body {
+  font-family: 'Montserrat',sans-serif;
+  // font-weight: 500;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+// .container {
+//   width: 1920px;
+//   padding-left: 85px;
+//   padding-right: 85px;
+//   margin-left: auto;
+//   margin-right: auto;
+
+// //   @include breakpointFrom(tablet) {
+// //     width: 744px;
+// //   }
+
+// //   @include breakpointFrom(desktop) {
+// //     width: 1256px;
+// //   }
+// }
+
+// .visually-hidden {
+//   position: absolute;
+//   white-space: nowrap;
+//   width: 1px;
+//   height: 1px;
+//   overflow: hidden;
+//   border: 0;
+//   padding: 0;
+//   clip: rect(0 0 0 0);
+//   clip-path: inset(50%);
+//   margin: -1px;
+// }
+
+// .is-hidden {
+//   visibility: hidden;
+//   opacity: 0;
+//   pointer-events: none;
+// }
+// places footer to bottom of page, if there not enougth content
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  background-color: var(--background-text-white);
+}
+
+// header {
+//   width: 100%;
+//   min-height: 230px;
+
+  // @include breakpointFrom(tablet) {
+  //   height: 219px;
+  // }
+
+  // @include breakpointFrom(desktop) {
+  //   height: 216px;
+  // }
+// }
+
+// footer {
+//   width: 100%;
+//   margin-top: auto;
+// }
