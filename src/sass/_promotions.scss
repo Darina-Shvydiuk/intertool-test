@@ -1,0 +1,113 @@
+.promotions{
+  padding-bottom: 120px;
+  padding-left: 85px;
+  padding-right: 85px;
+  
+  &__wrapper{
+    display: flex;
+    align-items: center;
+  }
+
+  &__promotions{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: $background-text-black;
+    margin-right: 30px;
+  }
+
+  &__see-all{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: $background-text-black;
+  }
+
+  &__list{
+    margin-top: 50px;
+    margin-bottom: 23px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    &__item{
+      width: 350px;
+height: 530px;
+  padding: 18px 20px;
+
+  &__sale{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    display: flex;
+   text-align: left;
+    letter-spacing: 0.01em;
+    color:$green-color;
+  }
+
+  &__image{
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+
+  &__article{
+    font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.1em;
+color: $background-text-black;
+display: flex;
+text-align: left;
+opacity: 0.5;
+margin-bottom: 7px;
+  }
+
+  &__title{
+    font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+letter-spacing: 0.01em;
+color: $background-text-black;
+display: flex;
+text-align: left;
+margin-bottom: 20px;
+  }
+
+  &__price{
+    font-weight: 500;
+font-size: 18px;
+line-height: 150%;
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+color: $background-text-black;
+display: flex;
+text-align: left;
+
+  }
+    }
+  }
+
+
+  &__wrapper-line{
+    display: flex;
+
+    &__lineA{
+      border: 3px solid #18191A;
+      width: 168px;
+      height: 3px;
+      margin-bottom: 120px;
+        }
+        &__lineB{
+          opacity: 0.1;
+      border: 3px solid #18191A;
+      width: 1582px;
+      height: 3px;
+      margin-bottom: 120px;
+        }
+  }
+}
