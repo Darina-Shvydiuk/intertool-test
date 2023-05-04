@@ -50,5 +50,8 @@
 <symbol id="icon-Vector-1-1" viewBox="0 0 55 32">
 <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="4.5714" d="M4.571 4.571l22.857 22.857 22.857-22.857"></path>
 </symbol>
+<symbol id="icon-star" viewBox="0 0 35 32">
+<path fill="#fae719" style="fill: var(--color1, #fae719)" d="M17.455 0l4.925 10.676 11.676 1.384-8.632 7.983 2.291 11.532-10.26-5.743-10.26 5.743 2.291-11.532-8.632-7.983 11.676-1.384 4.925-10.676z"></path>
+</symbol>
 </defs>
 </svg>
