@@ -106,4 +106,22 @@ color: $background-text-black;
     margin-right: 20px;
    }
   }
+
+  &__wrapper-line{
+    display: flex;
+
+    &__lineA{
+      border: 3px solid #18191A;
+      width: 168px;
+      height: 3px;
+      margin-bottom: 120px;
+        }
+        &__lineB{
+          opacity: 0.1;
+      border: 3px solid #18191A;
+      width: 1582px;
+      height: 3px;
+      margin-bottom: 120px;
+        }
+  }
 }
